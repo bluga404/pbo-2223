@@ -29,7 +29,7 @@ public class Account {
     @Override
     public String toString() {
         //<account-name>|<owner>|<balance>
-        return this.accountOwner + "|" + this.accountName + "|" + this.accountBalance;
+        return this.accountName + "|" + this.accountOwner + "|" + this.accountBalance;
     }
 
 }

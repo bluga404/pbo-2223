@@ -1,0 +1,7 @@
+1. I am changing Driver 1 so it can receive multiple input for creating account
+    - i am using split function to split user input by `#`, so i can find the command `create-account`
+    - then i am switching the case using the zero index of the array
+    - i collect owner and username using first and second index
+    - add validation so the user cannot create user with the same username
+    - if the user input is `---` break the loop
+    - I also add a default output if the user command is not `create-account`. The output is saying the user should input create-account because the current output is not recognized
