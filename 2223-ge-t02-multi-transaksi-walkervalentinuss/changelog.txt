@@ -5,3 +5,8 @@
     - add validation so the user cannot create user with the same username
     - if the user input is `---` break the loop
     - I also add a default output if the user command is not `create-account`. The output is saying the user should input create-account because the current output is not recognized
+
+2. Driver 2 has a new case where user can try to find their account
+    - lowercase username input at first index and search for its matching value in accounts username lowercased
+    - if not null print account
+    - if null continue
