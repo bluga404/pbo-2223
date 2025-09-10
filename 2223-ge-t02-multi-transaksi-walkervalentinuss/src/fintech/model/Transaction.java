@@ -32,7 +32,7 @@ public class Transaction extends Account{
     @Override
     public String toString() {
         //<id>|<transaction-name>|<amount>|<posted-at>|<note>|<balance>
-        return this.transId + "|" + this.accountName +  "|" + this.accountBalance + "|" + this.transPostedAt + "|" + this.transNote + "|" + this.transAmount;
+        return this.accountName + "|" + this.accountOwner  + "|" + this.accountBalance;
     }
 
 }
