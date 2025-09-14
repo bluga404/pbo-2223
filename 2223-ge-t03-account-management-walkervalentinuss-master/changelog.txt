@@ -1,0 +1,9 @@
+1. In driver 1 i create a new case called show account
+    - i have showed the accounts earlier using hashmap.values(), but it is not sorted yet, so i dig in to its documentation
+    - i don't find any function in hashmap to sort the values, so i create a list to sort the accounts
+    - i sort the accounts by comparing its username
+    - then i create a loop for the sorted accounts
+
+2. Driver 2 has a new case where user can try to remove their account
+    - i simply split the user input by '#' and take the username from index 1
+    - then, i remove the accounts by looking for its username, using hashmap function called remove.
